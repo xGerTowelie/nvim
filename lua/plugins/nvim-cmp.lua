@@ -1,5 +1,9 @@
 -- Autocompletion
 -- https://github.com/hrsh7th/nvim-cmp
+
+-- temporary disable
+if 1 == 1 then return {} end
+
 return {
 	'hrsh7th/nvim-cmp',
 	event = 'InsertEnter',
