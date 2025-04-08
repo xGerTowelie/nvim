@@ -18,6 +18,9 @@ return {
 		require("lspconfig").ts_ls.setup {}
 		require("lspconfig").html.setup {}
 		require("lspconfig").helm_ls.setup {}
+		require("lspconfig").tailwindcss.setup {}
+		require("lspconfig").rust_analyzer.setup {}
+
 
 		vim.api.nvim_create_autocmd("LspAttach", {
 			group = vim.api.nvim_create_augroup('group-lsp-attach', { clear = true }),
