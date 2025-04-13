@@ -6,6 +6,7 @@ vim.opt.shiftwidth = 4
 vim.opt.number = true
 vim.opt.clipboard = "unnamedplus"
 vim.opt.wrap = false
+vim.opt.updatetime = 500
 
 vim.keymap.set("n", "<leader><leader>x", "<cmd>source %<CR>")
 vim.keymap.set("n", "<leader>x", ":.lua<CR>")
